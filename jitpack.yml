@@ -1,0 +1,4 @@
+jdk:
+  - 17
+install:
+  - mvn install:install-file -Dfile=./jl-component-lib_V1.4.0_10400-release.aar -DpomFile=pom.xml
